@@ -343,12 +343,12 @@
             "version": "v1.5.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/clue/php-stream-filter.git",
+                "url": "https://github.com/clue/stream-filter.git",
                 "reference": "aeb7d8ea49c7963d3b581378955dbf5bc49aa320"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clue/php-stream-filter/zipball/aeb7d8ea49c7963d3b581378955dbf5bc49aa320",
+                "url": "https://api.github.com/repos/clue/stream-filter/zipball/aeb7d8ea49c7963d3b581378955dbf5bc49aa320",
                 "reference": "aeb7d8ea49c7963d3b581378955dbf5bc49aa320",
                 "shasum": ""
             },
@@ -3163,16 +3163,16 @@
         },
         {
             "name": "laravolt/avatar",
-            "version": "4.0.0",
+            "version": "4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravolt/avatar.git",
-                "reference": "ada18a96ac378a3888b38d1f9a75abc809023e37"
+                "reference": "90b143401145c010ed81fb9c3f8f70090828fc21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravolt/avatar/zipball/ada18a96ac378a3888b38d1f9a75abc809023e37",
-                "reference": "ada18a96ac378a3888b38d1f9a75abc809023e37",
+                "url": "https://api.github.com/repos/laravolt/avatar/zipball/90b143401145c010ed81fb9c3f8f70090828fc21",
+                "reference": "90b143401145c010ed81fb9c3f8f70090828fc21",
                 "shasum": ""
             },
             "require": {
@@ -3225,7 +3225,7 @@
                 "laravel",
                 "laravolt"
             ],
-            "time": "2020-09-10T17:42:04+00:00"
+            "time": "2021-02-15T06:03:55+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -12239,12 +12239,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
