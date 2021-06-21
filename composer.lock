@@ -343,12 +343,12 @@
             "version": "v1.5.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/clue/php-stream-filter.git",
+                "url": "https://github.com/clue/stream-filter.git",
                 "reference": "aeb7d8ea49c7963d3b581378955dbf5bc49aa320"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clue/php-stream-filter/zipball/aeb7d8ea49c7963d3b581378955dbf5bc49aa320",
+                "url": "https://api.github.com/repos/clue/stream-filter/zipball/aeb7d8ea49c7963d3b581378955dbf5bc49aa320",
                 "reference": "aeb7d8ea49c7963d3b581378955dbf5bc49aa320",
                 "shasum": ""
             },
@@ -11381,16 +11381,16 @@
         },
         {
             "name": "vluzrmos/language-detector",
-            "version": "v2.2",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vluzrmos/laravel-language-detector.git",
-                "reference": "ff6c041db4cca739f2d976f6c0cc68b7398c83ea"
+                "reference": "c049a2c477f582c8154e59ab01b4205b1798a6af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vluzrmos/laravel-language-detector/zipball/ff6c041db4cca739f2d976f6c0cc68b7398c83ea",
-                "reference": "ff6c041db4cca739f2d976f6c0cc68b7398c83ea",
+                "url": "https://api.github.com/repos/vluzrmos/laravel-language-detector/zipball/c049a2c477f582c8154e59ab01b4205b1798a6af",
+                "reference": "c049a2c477f582c8154e59ab01b4205b1798a6af",
                 "shasum": ""
             },
             "require": {
@@ -11398,7 +11398,7 @@
                 "illuminate/cookie": "~6.0 || ~7.0 || ~8.0",
                 "illuminate/support": "~6.0 || ~7.0 || ~8.0",
                 "illuminate/translation": "~6.0 || ~7.0 || ~8.0",
-                "php": "^7.2"
+                "php": "^7.2 || ^8.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.16",
@@ -11406,6 +11406,13 @@
                 "phpunit/phpunit": "^8.5 || ^9.0"
             },
             "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Vluzrmos\\LanguageDetector\\Providers\\LanguageDetectorServiceProvider"
+                    ]
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Vluzrmos\\LanguageDetector\\": "src/"
@@ -11432,7 +11439,7 @@
                 "locale",
                 "lumen"
             ],
-            "time": "2020-10-02T14:38:28+00:00"
+            "time": "2021-06-01T17:57:17+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -12239,12 +12246,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
@@ -16109,6 +16116,7 @@
                     "type": "github"
                 }
             ],
+            "abandoned": true,
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
